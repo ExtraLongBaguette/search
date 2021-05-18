@@ -1,12 +1,12 @@
 html, body {
     font-family: Arial, sans-serif;
-    height: 90%;
+    height: 90vmin;
 }
 #topBar {
     text-align: right;
     font-size: 14px;
     line-height: 48px;
-    height: 48px;
+    height: 5%;
     padding: 5px;
     margin-right: 15px;
     margin-left: 15px;
@@ -26,7 +26,12 @@ html, body {
 }
 
 #contentArea {
-    height: 100%;
+    height: 80%;
+    position: absolute;
+    top: 50;
+    bottom: 50;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +83,7 @@ html, body {
 }
 
 #buttonContainer {
-    position: fixed;
+    position: absolute;
     width: 30%;
     height: 70px;
     display: flex;
@@ -90,4 +95,25 @@ html, body {
     display: block;
     margin: auto;
     margin-bottom: 50px;
+}
+
+#bottomBar {
+    height: 5%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Segoe UI Emoji', Arial, sans-serif;
+}
+
+#githubImage {
+    width: 24px;
+    vertical-align: middle;
+    filter:opacity(0.3)
+}
+
+#githubImage:hover {
+    width: 30px;
+    filter:opacity(0.8)
 }

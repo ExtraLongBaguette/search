@@ -5,8 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Search</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    Image Search
+    <div id="topBar">
+        <a class="link" href="index.html">Return to Search</a>
+    </div>
+    <div id=contentArea>
+        <div id=centerBox>
+            <form action="https://google.com/search" method="GET">
+                <img src="https://fontmeme.com/permalink/210518/e6288f92d7c87110d85703c4e5cacfbc.png" alt="google-font" class="image">
+                <div id="inputContainer">
+                    <input type="text" name="q" id="searchBox" autocomplete="off" autofocus>
+                    <input type="hidden" name="tbm" value="isch">
+                </div>
+                <div id="buttonContainer" id="searchForm">
+                    <input type="submit" value="Image Search" class="button">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id=bottomBar>
+        Made with ❤ by ExtraLongBaguette <a href="https://github.com/ExtraLongBaguette"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github" id="githubImage"></a>
+    </div>
 </body>
 </html>
