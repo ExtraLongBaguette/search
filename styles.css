@@ -148,3 +148,8 @@ html, body {
 .advancedInputFields {
     width: 500px;
 }
+
+#topBarLogo {
+    width:100px;
+    float: left;
+}
