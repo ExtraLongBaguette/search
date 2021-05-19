@@ -147,9 +147,27 @@ html, body {
 
 .advancedInputFields {
     width: 500px;
+    line-height: 24px;
+    
+}
+.advancedInputFields:focus {
+    box-shadow: 0 0 2   px 2px lightgray;
 }
 
 #topBarLogo {
     width:100px;
     float: left;
+}
+
+#asButton {
+    background-color: #4d90fe;
+    padding: 0 12px;
+    line-height: 32px;
+    border: 2px solid #4d90fe;
+    color: white;
+    border-radius: 2px;;
+}
+
+#asButton:hover {
+    border: 2px solid #3079ed;
 }
