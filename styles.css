@@ -37,10 +37,22 @@ html, body {
     justify-content: center;
 }
 
+#contentAreaAdvanced {
+    height: 80%;
+    position: absolute;
+    top: 50;
+    bottom: 50;
+    left: 0;
+    right: 0;
+    padding: 50px;
+    padding-top: 0px;
+}
+
 #centerBox {
     width: 30%;
     height: 200px;
 }
+
 
 #searchBox {
     display: block;
@@ -116,4 +128,23 @@ html, body {
 #githubImage:hover {
     width: 30px;
     filter:opacity(0.8)
+}
+
+.divider {
+    border: 0.5px solid lightgray;
+}
+
+#title {
+    color: crimson;
+    font-weight: 100;
+    margin-left: 50px;
+}
+
+.inLineParagraphs {
+    display: inline-block;
+    width: 200px;
+}
+
+.advancedInputFields {
+    width: 500px;
 }

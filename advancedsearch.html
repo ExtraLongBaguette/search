@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    Advanced Search
+    <div id="topBar">
+        <a class="link" href="index.html">Return to Search</a>
+    </div>
+    <h3 id=title>Advanced Search</h3>
+    <div class="divider"></div>
+    <div id=contentAreaAdvanced>
+        <form action="https://google.com/search">
+            <p>Find pages with...</p>
+            <div class="searchOption">
+                <p class="inLineParagraphs">all these words:</p>
+                <input type="text" name="as_q" autocomplete="off" class="advancedInputFields">
+            </div>
+            <div class="searchOption">
+                <p class="inLineParagraphs">this exact word or phrase:</p>
+                <input type="text" name="as_epq" autocomplete="off" class="advancedInputFields">
+            </div>
+            <div class="searchOption">
+                <p class="inLineParagraphs">any of these words:</p>
+                <input type="text" name="as_oq" autocomplete="off" class="advancedInputFields">
+            </div>
+            <div class="searchOption">
+                <p class="inLineParagraphs">none of these words:</p>
+                <input type="text" name="as_eq" autocomplete="off" class="advancedInputFields">
+            </div>
+            <input type="submit" value="Advanced Search">
+        </form>
+    </div>
+    <div id=bottomBar>
+        Made with ❤ by ExtraLongBaguette <a href="https://github.com/ExtraLongBaguette"><img
+                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github"
+                id="githubImage"></a>
+    </div>
 </body>
+
 </html>
